@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.normal {
+  background-color: #dce1e6;
+}
+.fighting {
+  background-color: #f0c3d0;
+}
+.flying {
+  background-color: #dce4f4;
+}
+.poison {
+  background-color: #e6caf2;
+}
+.ground {
+  background-color: #f2c8b4;
+}
+.rock {
+  background-color: #f7eed4;
+}
+.bug {
+  background-color: #eaf4d3;
+}
+.ghost {
+  background-color: #d0d9f4;
+}
+.steel {
+  background-color: #d4edf7;
+}
+.fire {
+  background-color: #f4d5bf;
+}
+.water {
+  background-color: #cbe1f9;
+}
+.grass {
+  background-color: #cdf9c8;
+}
+.electric {
+  background-color: #f4eab8;
+}
+.psychic {
+  background-color: #f2c2c4;
+}
+.ice {
+  background-color: #d6f9f3;
+}
+.dragon {
+  background-color: #c6dff4;
+}
+.dark {
+  background-color: #d3cae3;
+}
+.fairy {
+  background-color: #f9dbf6;
+}
+.unknown,
+.shadow {
+  visibility: hidden;
+}

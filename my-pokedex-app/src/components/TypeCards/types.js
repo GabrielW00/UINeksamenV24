@@ -1,0 +1,21 @@
+/*Alle egenskaper eksporterer listen types */
+export const types = [
+  { name: "Normal", img: "/images/normal.png", className: "normal" },
+  { name: "Fighting", img: "/images/fighting.png", className: "fighting" },
+  { name: "Flying", img: "/images/flying.png", className: "flying" },
+  { name: "Poison", img: "/images/poisen.png", className: "poison" },
+  { name: "Ground", img: "/images/ground.png", className: "ground" },
+  { name: "Rock", img: "/images/rock.png", className: "rock" },
+  { name: "Bug", img: "/images/bug.png", className: "bug" },
+  { name: "Ghost", img: "/images/ghost.png", className: "ghost" },
+  { name: "Steel", img: "/images/steel.png", className: "steel" },
+  { name: "Fire", img: "/images/fire.png", className: "fire" },
+  { name: "Water", img: "/images/water.png", className: "water" },
+  { name: "Grass", img: "/images/grass.png", className: "grass" },
+  { name: "Electric", img: "/images/electric.png", className: "electric" },
+  { name: "Psychic", img: "/images/psychic.png", className: "psychic" },
+  { name: "Ice", img: "/images/ice.png", className: "ice" },
+  { name: "Dragon", img: "/images/dragon.png", className: "dragon" },
+  { name: "Dark", img: "/images/dark.png", className: "dark" },
+  { name: "Fairy", img: "/images/fairy.png", className: "fairy" },
+];
